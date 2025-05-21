@@ -1,0 +1,239 @@
+#vision-section {
+    padding: 0px 20px;
+    background-color: #fafafa;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .vision-container {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .vision-image-wrapper {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .vision-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vision-content {
+    flex: 1;
+    min-width: 320px;
+  }
+  
+  .vision-subtitle {
+    font-size: 20px;
+    color: #f97316; /* Orange */
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .vision-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 16px;
+    line-height: 1.4;
+  }
+  
+  .vision-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-bottom: 16px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .vision-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .vision-content {
+      padding-top: 20px;
+    }
+  
+    .vision-subtitle::after {
+      margin: 0 auto;
+    }
+  }
+  
+  /* mission */
+
+  #mission-section {
+    padding: 80px 20px;
+    background-color: #fafafa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.mission-container {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.mission-content {
+    flex: 1;
+    min-width: 320px;
+    order: 1; /* Content on the left */
+}
+
+.mission-image-wrapper {
+    flex: 1;
+    min-width: 300px;
+    order: 2; /* Image on the right */
+}
+
+.mission-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mission-subtitle {
+    font-size: 20px;
+    color: #f97316; /* Orange */
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.mission-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.mission-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-bottom: 16px;
+}
+
+/* Responsive Design for Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    #mission-section {
+        padding: 60px 15px;
+    }
+
+    .mission-container {
+        gap: 30px;
+    }
+
+    .mission-title {
+        font-size: 24px;
+    }
+
+    .mission-subtitle {
+        font-size: 18px;
+    }
+
+    .mission-text {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .mission-content {
+        min-width: 280px;
+    }
+
+    .mission-image-wrapper {
+        min-width: 280px;
+    }
+}
+
+/* Responsive Design for Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    #mission-section {
+        padding: 40px 10px;
+    }
+
+    .mission-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .mission-content {
+        padding-top: 0;
+        order: 1;
+        min-width: 100%;
+    }
+
+    .mission-image-wrapper {
+        order: 2;
+        padding-top: 20px;
+        min-width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .mission-title {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .mission-subtitle {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .mission-text {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 12px;
+    }
+
+    .mission-subtitle::after {
+        margin: 0 auto;
+    }
+}
+
+/* Extra Small Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    #mission-section {
+        padding: 30px 10px;
+    }
+
+    .mission-container {
+        gap: 15px;
+    }
+
+    .mission-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .mission-subtitle {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .mission-text {
+        font-size: 13px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    .mission-image-wrapper {
+        padding-top: 15px;
+    }
+}

@@ -1,0 +1,55 @@
+/* Neumorphism shadow */
+.shadow-neumorphic {
+  /* box-shadow: 6px 6px #d1d9e6, -6px -6px 12px #ffffff; */
+}
+
+/* Image wrapper */
+.image-wrapper {
+  transition: box-shadow 0.3s ease;
+}
+
+.image-wrapper:hover {
+  box-shadow: 0 0 15px rgba(0, 64, 133, 0.2);
+}
+
+/* Service image */
+.service-image {
+  transition: transform 0.3s ease;
+}
+
+/* Service title */
+.service-title {
+  padding: 15px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #004085, #0466c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Service subtitle */
+.service-subtitle {
+  padding: 15px;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+/* Service text */
+.service-text {
+  padding: 15px;
+  color: #4a5568;
+  line-height: 1.6;
+  font-size: clamp(0.875rem, 2.5vw, 1rem);
+}
+
+/* Intro section */
+#services-intro {
+  text-align: center;
+  margin: 0 auto 2rem auto;
+  
+}
+
+@media (min-width: 640px) {
+  #services-intro {
+    margin-bottom: 3rem;
+  }
+}

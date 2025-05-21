@@ -1,0 +1,229 @@
+/* .ExecutiveSearchServicesMainMP{
+    padding: 20px;
+}
+.ExecutiveSearchMP{
+    padding: 20px;
+    color: rgb(76, 76, 76);
+}
+.ExecutiveSearchServicesSection{
+    margin: 20px;
+    padding: 10px;
+}
+.ExecutiveSearchServicesArticle{
+    margin: 10px;
+
+}  */
+
+/* ExecutiveSearchServices.css */
+
+/* .ExecutiveSearchServicesMainMP {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h2.ExecutiveSearchMP {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #1a202c; 
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #4a5568; 
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .ExecutiveSearchServicesMainMP {
+    padding: 3rem 2rem;
+  }
+
+  h2.ExecutiveSearchMP {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ExecutiveSearchServicesMainMP {
+    padding: 4rem 2.5rem;
+  }
+
+  section {
+    margin-bottom: 4rem;
+  }
+} */
+
+
+/* Main container */
+.ExecutiveSearchServicesMainMP {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Section */
+.ExecutiveSearchServicesSection {
+  margin-bottom: 3rem;
+}
+
+/* Headings (h2) */
+.ExecutiveSearchMP {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #1a202c;
+}
+
+/* Subheadings (h3) */
+.ExecutiveSearchServicesSubheading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+/* Paragraphs */
+.ExecutiveSearchServicesParagraph {
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+/* Unordered List */
+.ExecutiveSearchServicesList {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* List Items */
+.ExecutiveSearchServicesListItem {
+  margin-bottom: 0.75rem;
+}
+
+/* Responsive Styles */
+@media (min-width: 640px) {
+  .ExecutiveSearchServicesMainMP {
+    padding: 3rem 2rem;
+  }
+
+  .ExecutiveSearchMP {
+    font-size: 2rem;
+  }
+
+  .ExecutiveSearchServicesSubheading {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ExecutiveSearchServicesMainMP {
+    padding: 4rem 2.5rem;
+  }
+
+  .ExecutiveSearchServicesSection {
+    margin-bottom: 4rem;
+  }
+}
+
+.industries-section-container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  padding: 40px 0;
+}
+
+.industries-section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.industries-section-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.industries-section-description {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.industries-section-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.industries-section-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: box-shadow 0.3s ease;
+}
+
+.industries-section-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.industries-section-icon {
+  font-size: 32px;
+  color: #2563eb;
+}
+
+.industries-section-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* Responsive design for tablet */
+@media (min-width: 640px) {
+  .industries-section-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive design for desktop */
+@media (min-width: 1024px) {
+  .industries-section-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

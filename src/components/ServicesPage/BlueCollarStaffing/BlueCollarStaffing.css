@@ -1,0 +1,374 @@
+/* Main container */
+.bcs-main {
+  padding: 2rem 1rem; /* Increased padding for better spacing */
+  margin: 0 auto; /* Center the main content */
+  max-width: 1280px; /* Constrain width for larger screens */
+}
+
+/* Sections */
+.bcs-section {
+  margin-bottom: 0.4rem; /* Space between sections */
+  padding: 1rem; /* Internal padding for content */
+}
+
+/* Articles */
+.bcs-article {
+  padding: 1rem; /* Padding inside articles for text content */
+  margin-bottom: 1.5rem; /* Space below each article */
+}
+
+/* Image containers */
+.bcs-image-container {
+  margin: 2rem auto; /* Center images with top/bottom margin */
+  padding: 0 1rem; /* Side padding for alignment */
+  max-width: 448px; /* Match max-w-md in Tailwind */
+}
+
+/* Numbered list (SetsUsApart) */
+.bcs-list {
+  margin-top: 1.5rem; /* Space above the list */
+  padding: 0; /* Reset default padding */
+}
+
+.bcs-list-item {
+  padding: 0.5rem; /* Internal padding for card-like items */
+   margin-bottom: 0.2rem;/* Space between list items */
+}
+
+/* Bulleted lists (Roles, Industries, etc.) */
+.bcs-list-bulleted {
+  padding-left: 1.5rem; /* Indent for bullet points */
+  margin-top: 1rem; /* Space above the list */
+}
+
+.bcs-list-bulleted li {
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+.bcs-p{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+/* Existing styles */
+.bcs-main {
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.bcs-section {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+}
+
+.bcs-article {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.bcs-image-container {
+  margin: 2rem auto;
+  padding: 0 1rem;
+  max-width: 448px;
+}
+
+.bcs-list {
+  margin-top: 1.5rem;
+  padding: 0;
+}
+
+.bcs-list-item {
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.bcs-list-bulleted {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.bcs-list-bulleted li {
+  margin-bottom: 0.5rem;
+}
+
+/* New styles for Roles section cards */
+.bcs-roles-grid {
+  margin-top: 1.5rem;
+}
+
+.bcs-role-card {
+  padding: 1rem;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bcs-role-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bcs-role-card i {
+  margin-bottom: 0.5rem;
+}
+
+/* Existing styles */
+.bcs-main {
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.bcs-section {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+}
+
+.bcs-article {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.bcs-image-container {
+  margin: 2rem auto;
+  padding: 0 1rem;
+  max-width: 448px;
+}
+
+.bcs-list {
+  margin-top: 1.5rem;
+  padding: 0;
+}
+
+.bcs-list-item {
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.bcs-list-bulleted {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.bcs-list-bulleted li {
+  margin-bottom: 0.5rem;
+}
+
+.bcs-roles-grid {
+  margin-top: 1.5rem;
+}
+
+.bcs-role-card {
+  padding: 1rem;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bcs-role-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bcs-role-card i {
+  margin-bottom: 0.5rem;
+}
+
+/* New styles for Industries section cards */
+.bcs-industries-grid {
+  margin-top: 1.5rem;
+}
+
+.bcs-industry-card {
+  padding: 1rem;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bcs-industry-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bcs-industry-card i {
+  margin-bottom: 0.5rem;
+}
+
+
+/* Existing styles */
+.bcs-main {
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.bcs-section {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+}
+
+.bcs-article {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.bcs-image-container {
+  margin: 2rem auto;
+  padding: 0 1rem;
+  max-width: 448px;
+}
+
+.bcs-list {
+  margin-top: 1.5rem;
+  padding: 0;
+}
+
+.bcs-list-item {
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.bcs-list-bulleted {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.bcs-list-bulleted li {
+  margin-bottom: 0.5rem;
+}
+
+.bcs-roles-grid {
+  margin-top: 1.5rem;
+}
+
+.bcs-role-card {
+  padding: 1rem;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bcs-role-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bcs-role-card i {
+  margin-bottom: 0.5rem;
+}
+
+.bcs-industries-grid {
+  margin-top: 1.5rem;
+}
+
+.bcs-industry-card {
+  padding: 1rem;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bcs-industry-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bcs-industry-card i {
+  margin-bottom: 0.5rem;
+}
+
+.bcs-benefits-grid {
+  margin-top: 1.5rem;
+}
+
+.bcs-benefit-card {
+  padding: 1rem;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bcs-benefit-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bcs-benefit-card i {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive adjustments for image and article containers */
+@media (max-width: 767px) {
+  .bcs-image-container {
+    margin: 1rem auto;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .bcs-article {
+    margin-bottom: 1rem;
+  }
+}
+
+
+.bcsBenefitsMP{
+  margin: 15px;
+padding: 10px;
+}
+
+.BlueCollarUAE{
+  margin: 10px;
+  padding: 10px;
+}
+/* Ensure smooth transitions for motion elements */
+.bcs-image-container,
+.bcs-article {
+  will-change: transform;
+  transform: translate3d(0, 0, 0); /* Enable hardware acceleration */
+}
+
+/* Prevent overflow issues with X translations */
+.bcs-section {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Adjust container for smooth scrolling */
+.bcs-main {
+  position: relative;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+/* Ensure images don't distort */
+.bcs-image-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Optional: Enhance card hover effects */
+.bcs-role-card,
+.bcs-industry-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

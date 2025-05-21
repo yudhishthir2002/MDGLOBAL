@@ -1,0 +1,76 @@
+.contactualStaffingmain{
+    padding: 40px;
+}
+.ChooseListItem{
+    margin: 10px;
+    padding: 10px;
+}
+.ContractualStaffingInput{
+    margin: 20px;
+    padding: 10px;
+}
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.faq-item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  padding: 20px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.faq-item.active {
+  border: 1px solid #e2e2e2;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 18px;
+  color:rgb(49, 48, 48)
+}
+
+.faq-answer {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.arrow {
+  font-size: 18px;
+  color: #999;
+}
+
+.OurCSMPForHeading{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.industriesMP{
+    margin-top: 10px;
+    margin-bottom: 35px;
+
+}
+.ContractualStaffingInput::placeholder {
+  color: #9ca3af; /* Tailwind's gray-400 */
+  opacity: 1;     /* Ensure it's not hidden */
+}
+.industriesMPHeading{
+    margin-bottom: 10px;
+}
+.faq-question-text {
+  color: #000; /* Black text color */
+}
+.OurContractStaffingP{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

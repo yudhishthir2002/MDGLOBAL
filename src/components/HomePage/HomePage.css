@@ -1,0 +1,26 @@
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+  
+  #recruitment-agency-section {
+    margin-top: 50px; 
+    margin-bottom: 30px;
+  }
+  
+  #recruitment-agency-section .heading-title {
+    font-size: 2.5rem;
+    padding: 15px;
+    color: blue;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 768px) {
+    #recruitment-agency-section .heading-title {
+      font-size: 2.8rem; 
+      padding: 15px
+    }
+  }
+  
