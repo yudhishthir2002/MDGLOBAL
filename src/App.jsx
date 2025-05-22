@@ -23,81 +23,81 @@ const App = () => {
   const rout = [
     {
       path: '/',
-      element: <AppLayout></AppLayout>,
+      element: <AppLayout/>,
       children: [
         {
           path: '/',
-          element: <HomePage></HomePage>,
+          element: <HomePage/>,
         },
         {
           path: '/about',
-          element: <AboutPage></AboutPage>,
+          element: <AboutPage/>,
         },
         {
           path: '/contact',
-          element: <ContactPage></ContactPage>,
+          element: <ContactPage/>,
         },
         {
           path: '/privacy-Policy',
-          element: <PrivacyPolicyPage></PrivacyPolicyPage>,
+          element: <PrivacyPolicyPage/>,
         },
         {
           path: '/services',
-          element: <ServicesPage></ServicesPage>,
+          element: <ServicesPage/>,
         },
         {
           path: '/services/Contractual-Staffing-Services',
-          element: <ContractualStaffingServices></ContractualStaffingServices>,
+          element: <ContractualStaffingServices/>,
         },
         {
           path: '/services/Executive-Search',
-          element: <ExecutiveSearchServices></ExecutiveSearchServices>,
+          element: <ExecutiveSearchServices/>,
         },
         {
           path: '/services/Permanent-Staffing-solution',
-          element: <PermanentStaffingSolutions></PermanentStaffingSolutions>,
+          element: <PermanentStaffingSolutions/>,
         },
         {
           path: '/services/Blue-Collar-Staffing',
-          element: <BlueCollarStaffing></BlueCollarStaffing>,
+          element: <BlueCollarStaffing/>,
         },
         {
           path: '/services/Leadership-Hiring',
-          element: <LeadershipHiringServices></LeadershipHiringServices>,
+          element: <LeadershipHiringServices/>,
         },
         {
           path: '/services/Staff-Outsourcing',
-          element: <OutsourcingCompaniesInDubai></OutsourcingCompaniesInDubai>,
+          element: <OutsourcingCompaniesInDubai/>,
         },
         {
           path: '/job-consultancy-in-dubai',
-          element: <JobConsultancyInDubai></JobConsultancyInDubai>,
+          element: <JobConsultancyInDubai/>,
         },
         {
           path: '/recruitment-agencies-in-dubai',
-          element: <RecruitmentAgenciesInDubai></RecruitmentAgenciesInDubai>,
+          element: <RecruitmentAgenciesInDubai/>,
         },
         {
           path: '/outsourcing-companies-in-dubai',
-          element: <OutsourcingCompaniesInDubai></OutsourcingCompaniesInDubai>,
+          element: <OutsourcingCompaniesInDubai/>,
         },
         {
           path: '/it-recruitment-agencies-in-dubai',
           element: (
-            <ITRecruitmentAgenciesInDubai></ITRecruitmentAgenciesInDubai>
+            <ITRecruitmentAgenciesInDubai/>
           ),
         },
         {
           path: '/request-a-call-back',
-          element: <RequestACallBack></RequestACallBack>,
+          element: <RequestACallBack/>,
         },
         {
           path: '/submit-your-cv',
-          element: <SubmitYourCV></SubmitYourCV>,
+          element: <SubmitYourCV/>,
         },
         {
           path: '/our-verticals',
-          element: <OurVerticals></OurVerticals>,
+          element: <OurVerticals/>,
         },
       ],
     },

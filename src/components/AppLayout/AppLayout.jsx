@@ -7,9 +7,9 @@ import FooterPage from "./../PageFooter/FooterPage";
 const AppLayout = () => {
   return (
       <div className=''>
-       <NavBar></NavBar>   
+       <NavBar/>   
        <Outlet/>
-      <FooterPage></FooterPage>
+      <FooterPage/>
     </div>
   )
 }
