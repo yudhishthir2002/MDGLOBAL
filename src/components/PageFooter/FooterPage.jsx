@@ -196,8 +196,7 @@ const FooterPage = () => {
         {/* Address Section */}
         <div className="footer-address-section">
           {address.map((loc, index) => (
-            // <Link
-            // to="/contact">
+           
               <motion.div
                 key={index}
                 className="footer-address"
@@ -221,7 +220,7 @@ const FooterPage = () => {
                   <span className="footer-label">Phone:</span> {loc.PhoneNumber}
                 </p>
               </motion.div>
-            // </Link>
+            
           ))}
         </div>
 
