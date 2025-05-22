@@ -45,10 +45,22 @@ const FooterPage = () => {
   ];
 
   const QuickLinks = [
-    { heading: 'Blog', path: '/' },
-    { heading: 'About Us', path: '/about' },
-    { heading: 'Contact Us', path: '/contact' },
-    { heading: 'Privacy Policy', path: '/privacy-Policy' },
+    {
+      heading: 'Blog',
+      path: '/'
+    },
+    {
+      heading: 'About Us',
+      path: '/about'
+    },
+    {
+      heading: 'Contact Us',
+      path: '/contact'
+    },
+    {
+      heading: 'Privacy Policy',
+      path: '/privacy-Policy'
+    },
   ];
 
   const OurVerticals = [
